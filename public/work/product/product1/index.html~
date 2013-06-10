@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<title>foled bucket</title>
+
+		<meta charset="utf-8" />
+		<meta name="description" content="A parallax scrolling experiment using jQuery" />
+
+		<link rel="stylesheet" media="all" href="css/main.css" />
+
+		<script src="js/modernizr.custom.37797.js"></script> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+		<script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
+		<script src="js/parallax.js"></script>
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+			
+			<header id="branding">
+			
+			<h1>Folded bucket</h1>  
+
+			</header>
+			<div class="work"><a href=""><p>work</p></a></div>
+			<nav id="primary">
+				<ul>
+					<li>
+						<h1>First manned flights</h1>
+						<a class="manned-flight" href="#manned-flight">View</a>
+					</li>
+					<li>
+						<h1>The frameless parachute</h1>
+						<a class="frameless-parachute" href="#frameless-parachute">View</a>
+					</li>
+					<li>
+						<h1>Over the English Channel</h1>
+						<a class="english-channel" href="#english-channel">View</a>
+					</li>
+					<li>
+						<h1>About</h1>
+						<a class="about" href="#about">View</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<div id="content">
+				<article id="manned-flight">
+					<header>
+					<h1>Folded bucket!</h1>
+					</header>
+					<p> </p>
+				</article>
+				
+			</div>
+			
+			<!-- Parallax foreground -->
+			<div id="parallax-bg3">
+				<img id="bg3-1" src="img/balloon.png" width="529" height="657" alt="Montgolfier hot air balloon"/>
+			</div>
+			
+		
+		</div>
+  
+</html>

@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<title>tissue's empty space</title>
+
+		<meta charset="utf-8" />
+		<meta name="description" content="A parallax scrolling experiment using jQuery" />
+
+		<link rel="stylesheet" media="all" href="css/main.css" />
+
+		<script src="js/modernizr.custom.37797.js"></script> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+		<script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
+		<script src="js/parallax.js"></script>
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+			
+			<header id="branding">
+				<h1>tissue's empty space</h1>
+			</header>
+			
+			<nav id="primary">
+				<ul>
+					<li>
+						<h1>tissue's empty space</h1>
+						<a class="manned-flight" href="#manned-flight">View</a>
+					</li>
+					<li>
+						<h1>The frameless parachute</h1>
+						<a class="frameless-parachute" href="#frameless-parachute">View</a>
+					</li>
+					<li>
+						<h1>Over the English Channel</h1>
+						<a class="english-channel" href="#english-channel">View</a>
+					</li>
+					<li>
+						<h1>About</h1>
+						<a class="about" href="#about">View</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<div id="content">
+				<article id="manned-flight">
+					<header>
+					<h1>tissue's empty space</h1>
+					</header>
+					<p></p>
+					<nav class="next-prev">
+						<hr />
+						<a class="next frameless-parachute" href="#frameless-parachute">Next</a>
+					</nav>
+				</article>
+				
+				<article id="frameless-parachute">
+					<header>
+						<h1>Drawing </h1>
+					</header>
+					<p></p>
+					<nav class="next-prev">
+						<a class="prev manned-flight" href="#manned-flight">Prev</a>
+						<hr />
+						<a class="next english-channel" href="#english-channel">Next</a>
+					</nav>
+				</article>
+				
+				<article id="english-channel">
+					<header>
+						<h1>Drawing</h1>
+					</header>
+					<p></p>
+					<nav class="next-prev">
+						<a class="prev frameless-parachute" href="#frameless-parachute">Prev</a>
+						<hr />
+						<a class="next about" href="#about">Next</a>
+					</nav>
+				</article>
+				
+				<article id="about">
+					<header>
+						<h1>Drawing</h1>
+					</header>
+					<nav class="next-prev">
+						<a class="prev english-channel" href="#english-channel">Prev</a>
+						<hr />
+					</nav>
+
+				</article>
+				<article id="about">
+					<header>
+						<h1>Drawing</h1>
+					</header>
+					<p></p>
+					<nav class="next-prev">
+						<a class="prev english-channel" href="#english-channel">Prev</a>
+						<hr />
+					</nav>
+				</article>
+			</div>
+			
+			<!-- Parallax foreground -->
+			<div id="parallax-bg3">
+				<img id="bg3-1" src="img/balloon.png" width="529" height="757" alt="Montgolfier hot air balloon"/>
+				<img id="bg3-2" src="img/balloon2.png" width="529" height="757" alt="Frameless parachute"/>
+				<img id="bg3-3" src="img/balloon3.png" width="529" height="757" alt="Blanchard's air balloon"/>
+				<img id="bg3-4" src="img/balloon4.png" width="529" height="757" alt="Blanchard's air balloon"/>
+				<img id="bg3-5" src="img/balloon5.png" width="529" height="757" alt="Blanchard's air balloon"/>
+			</div>
+			
+		
+		</div>
+  
+</html>

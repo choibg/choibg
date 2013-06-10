@@ -1,0 +1,67 @@
+<html>
+ <head> 
+  <title>bg's design hole</title>
+  <link href="index.css" type="text/css" rel="stylesheet"> 
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  
+  <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" type="text/css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+ <script>
+    function middle1() {
+      $("#middle").css("background", "url('i.png')");
+    }    
+    function middle2() {
+      $("#middle").css("background", "url('source.png')");    
+    }
+    function middle3() {
+      $("#middle").css("background", "url('diary.png')");    
+    }
+    function middle4() {
+      $("#middle").css("background", "url('work.png')");    
+    }
+
+ </script> 
+ </head>
+ <body>
+   <div id="top"> 
+   </div>
+
+   <div id="middle"> 
+    
+     <div class="bottom">
+   
+      <div class="bottom1">
+       <a onmouseover="middle1()" href="i.html"> 
+        <img src="button_i.png">
+       </a>   
+      </div>
+   
+     <div class="bottom2">
+       <a onmouseover="middle2()" href="sorce.html"> 
+        <img src="button_source.png"> 
+       </a>
+     </div>   
+   
+     <div class="bottom3">
+      <a onmouseover="middle3()" href="diary.html"> 
+       <img src="button_diary.png">
+      </a>
+     </div> 
+ 
+     <div class="bottom4"> 
+      <a onmouseover="middle4()" href="work/sketch/sketch.html">
+       <img src="button_work.png">
+      </a>
+     </div>
+
+    </div>
+
+  </div>
+
+
+
+ </body>
+</html>
+
